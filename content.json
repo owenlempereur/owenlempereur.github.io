@@ -42,7 +42,17 @@
       "featured": true,
       "description": "Photographie à l'argentique prise lors d'une pause a une session de musique avec un ami."
     },
-
+    
+    {
+      "id": "time",
+      "title": "Time",
+      "category": "photography",
+      "image": "images/Time.jpg",
+      "date": "2021",
+      "featured": false,
+      "description": "Photographie à l'argentique d'une montre à gousset devant une pochette de vinyle."
+    },
+    
     {
       "id": "drawing-example-01",
       "title": "Your Featured Drawing Title",
@@ -92,5 +102,46 @@
       "featured": false,
       "description": "Description of this piece."
     }
+    
+    {
+      "id": "brutalisme",
+      "title": "Brutalisme",
+      "category": "photography",
+      "image": "images/Brutalisme.jpg",
+      "date": "2022",
+      "featured": false,
+      "description": "Photographie d'un bâtiment brutaliste à Paris."
+    },
+    
+    {
+      "id": "deux_jumelles",
+      "title": "Deux jumelles",
+      "category": "photography",
+      "image": "images/Deux jumelles.jpg",
+      "date": "2023",
+      "featured": false,
+      "description": "Photographie de deux jumelles jouant au musée d'Orsay."
+    },    
+    
+    {
+      "id": "horloge_d_orsay",
+      "title": "Horloge d'Orsay",
+      "category": "photography",
+      "image": "images/Horloge d'Orsay.jpg",
+      "date": "2023",
+      "featured": false,
+      "description": "Photographie de la grande horloge du musée d'Orsay."
+    },
+    
+    {
+      "id": "passerelle",
+      "title": "Passerelle",
+      "category": "photography",
+      "image": "images/Passerelle.jpg",
+      "date": "2023",
+      "featured": false,
+      "description": "Photographie d'une passerelle en béton au musée d'Orsay."
+    },
+    
   ]
 }

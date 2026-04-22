@@ -74,13 +74,13 @@
     },
 
     {
-      "id": "photo-example-02",
-      "title": "Another Photo",
+      "id": "un_enfant_a_nantes",
+      "title": "Une enfant à Nantes",
       "category": "photography",
-      "image": "images/placeholder-photo-2.jpg",
-      "date": "2025",
+      "image": "images/Un enfant à Nantes.jpg",
+      "date": "2023",
       "featured": false,
-      "description": "Description of this piece."
+      "description": "Une enfant jouant devant le miroir d'eau de Nantes."
     },
 
     {

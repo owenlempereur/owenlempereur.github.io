@@ -158,7 +158,7 @@ img {
 .featured-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 280px 240px;
+  grid-template-rows: 280px 280px;
   gap: 6px;
   padding: 0 48px 48px;
 }

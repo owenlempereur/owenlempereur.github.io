@@ -1,0 +1,96 @@
+{
+  "site": {
+    "name": "Owen Lempereur",
+    "tagline": "Writer. Painter. Creator.",
+    "description": "A multidisciplinary portfolio spanning fiction, paint, pencil, lens, pixel, and polygon.",
+    "email": "your.email@example.com",
+    "instagram": "https://instagram.com/yourhandle"
+  },
+
+  "about": {
+    "bio": "Write a few sentences about yourself here. Who you are, what drives your work, what themes or ideas you explore across your disciplines.",
+    "photo": ""
+  },
+
+  "works": [
+
+    {
+      "id": "writing-long-horizon",
+      "title": "The Long Horizon",
+      "category": "writing",
+      "image": "images/placeholder-writing.jpg",
+      "date": "2026",
+      "featured": true,
+
+      "genre": "Science Fiction · Novel",
+      "status": "In Progress · First Draft",
+      "pitch": "A two-sentence hook for the project. This is the back-cover text that grabs someone immediately.",
+      "description": "A brief explanation of the project — what it is, its scope, and where it stands.",
+      "process": "How the idea came about. What inspired you, how you developed it, the creative journey. This section is expandable on the site so it can be longer.",
+      "excerpt": "The station had been silent for eleven years before the signal returned. At first, no one believed it — the frequencies had been dead so long that most of the monitoring equipment had been repurposed, stripped for parts by engineers who had given up hope. But on a Tuesday morning in late autumn, a junior technician named Mara Osei noticed a pattern in the static.\n\nShe almost dismissed it. The noise was faint, buried under layers of cosmic background radiation, and her shift was nearly over. But something about the rhythm caught her ear — not random, not natural. It pulsed with an intention she couldn't name but couldn't ignore.\n\n\"This is not interference,\" she whispered to herself, reaching for the recording toggle.",
+      "link_type": "pdf",
+      "link_url": "https://drive.google.com/your-link-here",
+      "link_label": "Read the first three chapters"
+    },
+
+    {
+      "id": "photo-example-01",
+      "title": "Your Featured Photo Title",
+      "category": "photography",
+      "image": "images/placeholder-photo.jpg",
+      "date": "2026",
+      "featured": true,
+      "description": "A short description of this photograph — the context, the moment, the technique."
+    },
+
+    {
+      "id": "drawing-example-01",
+      "title": "Your Featured Drawing Title",
+      "category": "drawing",
+      "image": "images/placeholder-drawing.jpg",
+      "date": "2026",
+      "featured": true,
+      "description": "A short description of this drawing — medium, inspiration, process."
+    },
+
+    {
+      "id": "digital-example-01",
+      "title": "Your Featured Digital Piece",
+      "category": "digital",
+      "image": "images/placeholder-digital.jpg",
+      "date": "2026",
+      "featured": true,
+      "description": "A short description of this digital painting."
+    },
+
+    {
+      "id": "painting-example-01",
+      "title": "Your Featured Painting Title",
+      "category": "painting",
+      "image": "images/placeholder-painting.jpg",
+      "date": "2026",
+      "featured": true,
+      "description": "A short description of this painting — medium, size, inspiration."
+    },
+
+    {
+      "id": "photo-example-02",
+      "title": "Another Photo",
+      "category": "photography",
+      "image": "images/placeholder-photo-2.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Description of this piece."
+    },
+
+    {
+      "id": "painting-example-02",
+      "title": "Another Painting",
+      "category": "painting",
+      "image": "images/placeholder-painting-2.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Description of this piece."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owen Lempereur — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a href="#" class="wordmark" data-nav="home">OWEN<span>·</span>LEMPEREUR</a>
+    <ul class="nav-links">
+      <li><a href="#" data-nav="work">Work</a></li>
+      <li><a href="#" data-nav="about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE: HOME -->
+  <main class="page page-home active" id="page-home">
+    <div class="hero">
+      <div class="hero-tagline">Writer<span class="accent">.</span> Painter<span class="accent">.</span><br>Creator<span class="accent">.</span></div>
+      <p class="hero-sub" id="hero-sub"></p>
+    </div>
+    <div class="grid-label">Featured work</div>
+    <div class="featured-grid" id="featured-grid"></div>
+  </main>
+
+  <!-- PAGE: WORK -->
+  <main class="page page-work" id="page-work">
+    <div class="work-header">
+      <h1 class="page-title">Work</h1>
+      <div class="filter-tabs" id="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="painting">Painting</button>
+        <button class="filter-tab" data-filter="drawing">Drawing</button>
+        <button class="filter-tab" data-filter="photography">Photography</button>
+        <button class="filter-tab" data-filter="digital">Digital</button>
+        <button class="filter-tab" data-filter="writing">Writing</button>
+      </div>
+    </div>
+    <div class="work-grid" id="work-grid"></div>
+  </main>
+
+  <!-- PAGE: DETAIL (visual works) -->
+  <main class="page page-detail" id="page-detail">
+    <button class="back-btn" id="back-btn">← Back</button>
+    <div class="detail-content" id="detail-content"></div>
+  </main>
+
+  <!-- PAGE: WRITING DETAIL -->
+  <main class="page page-writing-detail" id="page-writing-detail">
+    <button class="back-btn" id="back-btn-writing">← Back</button>
+    <div class="writing-detail-content" id="writing-detail-content"></div>
+  </main>
+
+  <!-- PAGE: ABOUT -->
+  <main class="page page-about" id="page-about">
+    <div class="about-content">
+      <h1 class="page-title">About</h1>
+      <div class="about-body" id="about-body"></div>
+      <div class="about-contact" id="about-contact"></div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-bar" id="footer">
+    <div class="footer-left">&copy; 2026 Owen Lempereur</div>
+    <div class="footer-right" id="footer-right"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

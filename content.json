@@ -34,13 +34,13 @@
     },
 
     {
-      "id": "photo-example-01",
-      "title": "Your Featured Photo Title",
+      "id": "un_samedi_apresmidi",
+      "title": "Un samedi après-midi",
       "category": "photography",
-      "image": "images/placeholder-photo.jpg",
-      "date": "2026",
+      "image": "images/Un samedi apres-midi.jpg",
+      "date": "2020",
       "featured": true,
-      "description": "A short description of this photograph — the context, the moment, the technique."
+      "description": "Photographie à l'argentique prise lors d'une pause a une session de musique avec un ami."
     },
 
     {

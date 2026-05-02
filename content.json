@@ -3,7 +3,7 @@
     "name": "Owen Lempereur",
     "tagline": "Writer. Painter. Creator.",
     "description": "A multidisciplinary portfolio spanning fiction, paint, pencil, lens, pixel, and polygon.",
-    "email": "your.email@example.com",
+    "email": "owen.a.lempereur@gmail.com",
     "instagram": "https://instagram.com/yourhandle"
   },
 
@@ -21,7 +21,6 @@
       "image": "images/placeholder-writing.jpg",
       "date": "2026",
       "featured": true,
-
       "genre": "Science Fiction · Novel",
       "status": "In Progress · First Draft",
       "pitch": "A two-sentence hook for the project. This is the back-cover text that grabs someone immediately.",
@@ -42,7 +41,7 @@
       "featured": true,
       "description": "Photographie à l'argentique prise lors d'une pause a une session de musique avec un ami."
     },
-    
+
     {
       "id": "time",
       "title": "Time",
@@ -52,15 +51,15 @@
       "featured": false,
       "description": "Photographie à l'argentique d'une montre à gousset devant une pochette de vinyle."
     },
-    
+
     {
-      "id": "drawing-example-01",
-      "title": "Your Featured Drawing Title",
+      "id": "auto-portrait",
+      "title": "Auto-portrait",
       "category": "drawing",
-      "image": "images/placeholder-drawing.jpg",
+      "image": "images/Auto-portrait.jpeg",
       "date": "2026",
       "featured": true,
-      "description": "A short description of this drawing — medium, inspiration, process."
+      "description": "Auto-portrait réalisé au fusain à partir d'une photo argentique."
     },
 
     {
@@ -74,35 +73,35 @@
     },
 
     {
-      "id": "painting-example-01",
-      "title": "Your Featured Painting Title",
+      "id": "perso-simple",
+      "title": "Cloud Strife",
       "category": "painting",
-      "image": "images/placeholder-painting.jpg",
+      "image": "images/Personnage simple.jpg",
       "date": "2026",
-      "featured": true,
-      "description": "A short description of this painting — medium, size, inspiration."
+      "featured": false,
+      "description": "Interprétation simplifié de Cloud Strife, Final Fantasy VII — Peinture acrylique, A3, inspiré par Denis de Groot."
     },
 
     {
       "id": "un_enfant_a_nantes",
-      "title": "Une enfant à Nantes",
+      "title": "Un enfant à Nantes",
       "category": "photography",
-      "image": "images/Un enfant à Nantes.jpg",
+      "image": "images/Un enfant à Nantes.jpg",
       "date": "2023",
       "featured": false,
       "description": "Une enfant jouant devant le miroir d'eau de Nantes."
     },
 
     {
-      "id": "painting-example-02",
-      "title": "Another Painting",
+      "id": "fresque-mur",
+      "title": "La Cène 2.0",
       "category": "painting",
-      "image": "images/placeholder-painting-2.jpg",
-      "date": "2025",
-      "featured": false,
-      "description": "Description of this piece."
+      "image": "images/Fresque mur.jpg",
+      "date": "2026",
+      "featured": true,
+      "description": "Fresque représentant la Cène réinterprétée avec des éléments de la POP culture — Peinture acrylique sur mur, 3,70m x 2m."
     },
-    
+
     {
       "id": "brutalisme",
       "title": "Brutalisme",
@@ -112,7 +111,7 @@
       "featured": false,
       "description": "Photographie d'un bâtiment brutaliste à Paris."
     },
-    
+
     {
       "id": "deux_jumelles",
       "title": "Deux jumelles",
@@ -121,8 +120,8 @@
       "date": "2023",
       "featured": false,
       "description": "Photographie de deux jumelles jouant au musée d'Orsay."
-    },    
-    
+    },
+
     {
       "id": "horloge_d_orsay",
       "title": "Horloge d'Orsay",
@@ -132,7 +131,7 @@
       "featured": false,
       "description": "Photographie de la grande horloge du musée d'Orsay."
     },
-    
+
     {
       "id": "passerelle",
       "title": "Passerelle",
@@ -141,7 +140,177 @@
       "date": "2023",
       "featured": false,
       "description": "Photographie d'une passerelle en béton au musée d'Orsay."
+    },
+
+    {
+      "id": "ecorche",
+      "title": "Écorché",
+      "category": "drawing",
+      "image": "images/Ecorche.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Étude anatomique d'un écorché."
+    },
+
+    {
+      "id": "planche-squelette",
+      "title": "Planche Squelette",
+      "category": "drawing",
+      "image": "images/Planche Squelette.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Planche d'étude anatomique du squelette."
+    },
+
+    {
+      "id": "jambes",
+      "title": "Jambes",
+      "category": "drawing",
+      "image": "images/Jambes.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Étude de modèle vivant — jambes."
+    },
+
+    {
+      "id": "tetes",
+      "title": "Têtes",
+      "category": "drawing",
+      "image": "images/Tetes.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Étude de modèle vivant — têtes."
+    },
+
+    {
+      "id": "visages",
+      "title": "Visages",
+      "category": "drawing",
+      "image": "images/Visages.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Étude de modèle vivant — visages."
+    },
+
+    {
+      "id": "animaux",
+      "title": "Animaux",
+      "category": "drawing",
+      "image": "images/Animaux.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation — animaux."
+    },
+
+    {
+      "id": "buste-cesar",
+      "title": "Buste César",
+      "category": "drawing",
+      "image": "images/Buste Cesar.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation d'un buste de César."
+    },
+
+    {
+      "id": "buste-grand-mere",
+      "title": "Buste de grand-mère",
+      "category": "drawing",
+      "image": "images/Buste de grand-mère.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation d'un buste de grand-mère."
+    },
+
+    {
+      "id": "skate",
+      "title": "Skate",
+      "category": "drawing",
+      "image": "images/Skate.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation — skate."
+    },
+
+    {
+      "id": "visages-sculptes",
+      "title": "Visages sculptés",
+      "category": "drawing",
+      "image": "images/Visages sculptés.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation de visages sculptés."
+    },
+
+    {
+      "id": "cube",
+      "title": "Cube",
+      "category": "painting",
+      "image": "images/Cube.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Peinture d'un cube."
+    },
+
+    {
+      "id": "harmonies",
+      "title": "Harmonies",
+      "category": "painting",
+      "image": "images/Harmonies.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Étude d'harmonies de couleurs."
+    },
+
+    {
+      "id": "sphere",
+      "title": "Sphère",
+      "category": "painting",
+      "image": "images/Sphere.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Peinture d'une sphère."
+    },
+
+    {
+      "id": "vitraux",
+      "title": "Vitraux",
+      "category": "painting",
+      "image": "images/Vitraux.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Peinture inspirée de vitraux."
+    },
+
+    {
+      "id": "archi-brutaliste-1",
+      "title": "Architecture Brutaliste — Vue 1",
+      "category": "drawing",
+      "image": "images/Architecture Brutaliste - vue 1.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin en perspective d'architecture brutaliste."
+    },
+
+    {
+      "id": "archi-brutaliste-2",
+      "title": "Architecture Brutaliste — Vue 2",
+      "category": "drawing",
+      "image": "images/Architecture Brutaliste - vue 2.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin en perspective d'architecture brutaliste — seconde vue."
+    },
+
+    {
+      "id": "impro-batiment",
+      "title": "Impro bâtiment",
+      "category": "drawing",
+      "image": "images/Impro batiment.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Dessin en perspective — improvisation architecturale."
     }
-    
+
   ]
 }

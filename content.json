@@ -20,7 +20,7 @@
       "category": "writing",
       "image": "images/placeholder-writing.jpg",
       "date": "Février 2026",
-      "featured": true,
+      "featured": false,
       "genre": "Fiction · Écrit court",
       "status": "Terminé",
       "pitch": "Un homme agrippé à la rembarde d'un pont, remet en question sont existence.",
@@ -28,10 +28,28 @@
       "process": "Je suis parti du thème imposé avant d'affiner mes idées via du brainstorming. Une fois les idées assez claires, je me suis lancé dans une rédaction complète à la première personne dans le but de plonger le lecteur dans la psyché et les sensations du personnage.",
       "excerpt": "Bref, c’est décidé. Au bord du vide, le vent de face. Les restes de mon vertige me feraient presque reculer. Mais c’est décidé. La douleur, la solitude… le silence. J’ai repoussé ce moment trop longtemps, alors que tout me pousse dans cette direction. Sauf le vent. Il me gifle le visage avec une froideur morbide. Plutôt approprié, non ?",
       "link_type": "pdf",
-      "link_url": "https://drive.google.com/file/d/1PqHfkskGx8A0Tvb1thn9bp-oBbKFtSkc/view?usp=drive_link",
+      "link_url": "https://drive.google.com/file/d/1PqHfkskGx8A0Tvb1thn9bp-oBbKFtSkc/view?usp=sharing",
       "link_label": "Lisez l'écrit dans son ensemble ici :"
     },
 
+    {
+      "id": "la_poussiere_rouge",
+      "title": "La Poussière Rouge Ne Juge Pas",
+      "category": "writing",
+      "image": "images/placeholder-writing.jpg",
+      "date": "2025-2026",
+      "featured": true,
+      "genre": "Science Fiction · Roman court",
+      "status": "En-cours",
+      "pitch": "Sur Mars, personne ne demande d'où vous venez. La poussière rouge ne juge pas. Daniel Yi est ingénieur. Il a fui la Terre, ses guerres, et quelque chose qu'il garde dans une mallette. À CIME, on lui offre un poste, un logement, un statut prioritaire — et un travail qu'il reconnaît trop bien. Que vaut un homme qui recommence ?",
+      "description": "Roman de science-fiction situé dans un futur où l'humanité s'est dispersée dans la galaxie. Sur Mars, la capitale industrielle CIME tourne à plein régime sous la République Démocratique de Mars. On y suit Daniel Yi, ingénieur exfiltré au passé flou, recruté par MIRA.TECH, un pôle de recherche gouvernemental qui semble caché sont réel but. Le ton est lent, sensoriel, attentif aux textures — la rouille, le néon vert des couloirs, le goût de fer dans la bouche — et hérite autant de Blade Runner et du cyberpunk industriel que d'une tradition plus européenne du roman atmosphérique.",
+      "process": "Ce roman se place dans un univers complet de science fiction encore en-cours de création. Le choix de cette histoire s'est fait afin de raconter l'histoire d'un homme fuyant sa planète en guerre et laissant son passé derrière lui. Une thématique qui m'inspire beaucoup au moment de sa rédaction avec les nombreux conflits éparpillés sur notre planète. Toute l'idée philisophique et le cheminenment psychologique du personnage et de sa vie ont été les premiers éléments fondateurs de ce roman.",
+      "excerpt": "Daniel s’accouda, le métal mordant la paume ; la bourrasque griffait sa peau, soulevait sa combinaison. Il se sentit minuscule, un élé-ment interchangeable dans un organisme bâti pour consommer, digérer, oublier.  Et pourtant, là-haut, la solitude prit une con-sistance nouvelle — presque sereine. Suspendu entre ciel et ruines, il trouva un fragile sentiment de paix. Le temps semblait s’effriter autour de lui.  Une part de lui voulait rester figée, se fossili-ser dans cette parenthèse. Mais il n’avait plus ce luxe.  Il reprit le même ascenseur, redescendit len-tement, chaque niveau avalant un pan de ciel jusqu’à le rendre au labyrinthe d’en bas.  Demain, il devrait recommencer à vivre.",
+      "link_type": "pdf",
+      "link_url": "https://drive.google.com/file/d/1g7JS9tyecY-YewbcT1dQD2xHS2n3LNzQ/view?usp=sharing",
+      "link_label": "Lisez les deux premiers chapitres ici :"
+    },
+    
     {
       "id": "un_samedi_apresmidi",
       "title": "Un samedi après-midi",

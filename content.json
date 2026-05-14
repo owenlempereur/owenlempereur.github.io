@@ -15,21 +15,21 @@
   "works": [
 
     {
-      "id": "writing-long-horizon",
-      "title": "The Long Horizon",
+      "id": "bref_cest_decide",
+      "title": "Bref, C'est Décidé",
       "category": "writing",
       "image": "images/placeholder-writing.jpg",
-      "date": "2026",
+      "date": "Février 2026",
       "featured": true,
-      "genre": "Science Fiction · Novel",
-      "status": "In Progress · First Draft",
-      "pitch": "A two-sentence hook for the project. This is the back-cover text that grabs someone immediately.",
-      "description": "A brief explanation of the project — what it is, its scope, and where it stands.",
-      "process": "How the idea came about. What inspired you, how you developed it, the creative journey. This section is expandable on the site so it can be longer.",
-      "excerpt": "The station had been silent for eleven years before the signal returned. At first, no one believed it — the frequencies had been dead so long that most of the monitoring equipment had been repurposed, stripped for parts by engineers who had given up hope. But on a Tuesday morning in late autumn, a junior technician named Mara Osei noticed a pattern in the static.\n\nShe almost dismissed it. The noise was faint, buried under layers of cosmic background radiation, and her shift was nearly over. But something about the rhythm caught her ear — not random, not natural. It pulsed with an intention she couldn't name but couldn't ignore.\n\n\"This is not interference,\" she whispered to herself, reaching for the recording toggle.",
+      "genre": "Fiction · Écrit court",
+      "status": "Terminé",
+      "pitch": "Un homme agrippé à la rembarde d'un pont, remet en question sont existence.",
+      "description": "Petit écrit limité à 1800 signes, réalisé dans le cadre d'un concours avec pour thème : Bref, C'est Décidé.",
+      "process": "Je suis parti du thème imposé avant d'affiner mes idées via du brainstorming. Une fois les idées assez claires, je me suis lancé dans une rédaction complète à la première personne dans le but de plonger le lecteur dans la psyché et les sensations du personnage.",
+      "excerpt": "Bref, c’est décidé. Au bord du vide, le vent de face. Les restes de mon vertige me feraient presque reculer. Mais c’est décidé. La douleur, la solitude… le silence. J’ai repoussé ce moment trop longtemps, alors que tout me pousse dans cette direction. Sauf le vent. Il me gifle le visage avec une froideur morbide. Plutôt approprié, non ?",
       "link_type": "pdf",
-      "link_url": "https://drive.google.com/your-link-here",
-      "link_label": "Read the first three chapters"
+      "link_url": "https://drive.google.com/file/d/1PqHfkskGx8A0Tvb1thn9bp-oBbKFtSkc/view?usp=drive_link",
+      "link_label": "Lisez l'écrit dans son ensemble ici :"
     },
 
     {

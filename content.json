@@ -9,7 +9,7 @@
 
   "about": {
     "bio": "Write a few sentences about yourself here. Who you are, what drives your work, what themes or ideas you explore across your disciplines.",
-    "photo": "images/Profile pic.jpg"
+    "photo": "images/Profile pic.jpeg"
   },
 
   "works": [
@@ -234,7 +234,7 @@
       "id": "buste-grand-mere",
       "title": "Buste de grand-mère",
       "category": "drawing",
-      "image": "images/Buste de grand-mère.jpeg",
+      "image": "images/Buste de grand-mere.jpeg",
       "date": "2026",
       "featured": false,
       "description": "Dessin d'observation d'un buste de bronze - Fusain, 65x50cm."
@@ -284,7 +284,7 @@
       "id": "visages-sculptes",
       "title": "Visages sculptés",
       "category": "drawing",
-      "image": "images/Visages sculptés.jpeg",
+      "image": "images/Visages sculptes.jpeg",
       "date": "2026",
       "featured": false,
       "description": "Dessin d'observation de visages sculptés - Fusain, 65x50cm."

@@ -14,7 +14,7 @@
   async function init() {
     try {
       const resp = await fetch('content.json');
-      if (!resp.ok) throw new Error('Could not load content.json (status ' + resp.status + ')');
+      if (!resp.ok) throw new Error('Impossible de charger content.json (statut ' + resp.status + ')');
       DATA = await resp.json();
     } catch (err) {
       showJsonError(err.message);
@@ -31,8 +31,8 @@
 
   // --- JSON ERROR ---
   function showJsonError(msg) {
-    const home = document.getElementById('page-home');
-    home.innerHTML = '<div class="json-error"><h2>Content Error</h2><p>There\'s a problem loading your content.json file. This usually means a missing comma, an extra comma, or a mismatched quote.</p><code>' + escapeHtml(msg) + '</code><p style="margin-top:16px">Open content.json in a text editor and check for syntax issues, or paste it into <a href="https://jsonlint.com" target="_blank" style="color:var(--accent)">jsonlint.com</a> to find the error.</p></div>';
+    var home = document.getElementById('page-home');
+    home.innerHTML = '<div class="json-error"><h2>Erreur de contenu</h2><p>Il y a un problème avec votre fichier content.json. Cela signifie généralement une virgule manquante, une virgule en trop, ou des guillemets mal fermés.</p><code>' + escapeHtml(msg) + '</code><p style="margin-top:16px">Ouvrez content.json dans un éditeur de texte et vérifiez la syntaxe, ou collez-le dans <a href="https://jsonlint.com" target="_blank" style="color:var(--accent)">jsonlint.com</a> pour trouver l\'erreur.</p></div>';
   }
 
   // --- NAVIGATION ---
@@ -122,7 +122,7 @@
         '<div class="writing-genre">' + escapeHtml(w.genre || '') + '</div>' +
         '<div class="writing-title-card">' + escapeHtml(w.title) + '</div>' +
         '<div class="writing-excerpt-card">' + truncate(w.excerpt || w.pitch || '', 120) + '</div>' +
-        '<div class="writing-cta">Read more →</div>';
+        '<div class="writing-cta">Lire la suite →</div>';
       card.addEventListener('click', function () { openPiece(w.id); });
       grid.appendChild(card);
     });
@@ -169,7 +169,7 @@
         var card = document.createElement('div');
         card.className = 'work-card writing-work-card';
         card.innerHTML =
-          '<div class="work-writing-genre">' + escapeHtml(w.genre || 'Writing') + '</div>' +
+          '<div class="work-writing-genre">' + escapeHtml(w.genre || 'Écriture') + '</div>' +
           '<div class="work-writing-title">' + escapeHtml(w.title) + '</div>' +
           '<div class="work-writing-pitch">' + truncate(w.pitch || '', 100) + '</div>' +
           '<div class="work-writing-status">' + escapeHtml(w.status || '') + '</div>';
@@ -230,8 +230,8 @@
       '<h1 class="detail-title">' + escapeHtml(w.title) + '</h1>' +
       (w.description ? '<p class="detail-description">' + escapeHtml(w.description) + '</p>' : '') +
       '<div class="detail-nav">' +
-      '<button class="detail-nav-btn' + (prev ? '' : ' disabled') + '" data-id="' + (prev ? prev.id : '') + '">← Previous</button>' +
-      '<button class="detail-nav-btn' + (next ? '' : ' disabled') + '" data-id="' + (next ? next.id : '') + '">Next →</button>' +
+      '<button class="detail-nav-btn' + (prev ? '' : ' disabled') + '" data-id="' + (prev ? prev.id : '') + '">← Précédent</button>' +
+      '<button class="detail-nav-btn' + (next ? '' : ' disabled') + '" data-id="' + (next ? next.id : '') + '">Suivant →</button>' +
       '</div>';
 
     container.querySelectorAll('.detail-nav-btn').forEach(function (btn) {
@@ -259,23 +259,23 @@
     }
 
     if (w.description) {
-      html += '<div class="wd-section-title">About this project</div>';
+      html += '<div class="wd-section-title">À propos du projet</div>';
       html += '<p class="wd-description">' + escapeHtml(w.description) + '</p>';
     }
 
     if (w.process) {
-      html += '<div class="wd-process-toggle" id="process-toggle">How I got here +</div>';
+      html += '<div class="wd-process-toggle" id="process-toggle">Genèse du projet +</div>';
       html += '<div class="wd-process" id="process-body">' + escapeHtml(w.process) + '</div>';
     }
 
     if (w.excerpt) {
       html += '<hr class="wd-divider">';
-      html += '<div class="wd-excerpt-label">Excerpt</div>';
+      html += '<div class="wd-excerpt-label">Extrait</div>';
       html += '<div class="wd-excerpt">' + escapeHtml(w.excerpt) + '</div>';
     }
 
     if (w.link_url) {
-      html += '<a href="' + escapeHtml(w.link_url) + '" target="_blank" class="wd-cta">' + escapeHtml(w.link_label || 'Read more') + ' →</a>';
+      html += '<a href="' + escapeHtml(w.link_url) + '" target="_blank" class="wd-cta">' + escapeHtml(w.link_label || 'Lire la suite') + ' →</a>';
     }
 
     container.innerHTML = html;
@@ -286,7 +286,7 @@
     if (toggle && body) {
       toggle.addEventListener('click', function () {
         body.classList.toggle('open');
-        toggle.textContent = body.classList.contains('open') ? 'How I got here −' : 'How I got here +';
+        toggle.textContent = body.classList.contains('open') ? 'Genèse du projet −' : 'Genèse du projet +';
       });
     }
   }
@@ -351,11 +351,11 @@
 
   function formatCategory(cat) {
     var names = {
-      painting: 'Painting',
-      drawing: 'Drawing',
-      photography: 'Photography',
-      digital: 'Digital Painting',
-      writing: 'Writing'
+      painting: 'Peinture',
+      drawing: 'Dessin',
+      photography: 'Photographie',
+      digital: 'Art numérique',
+      writing: 'Écriture'
     };
     return names[cat] || cat;
   }

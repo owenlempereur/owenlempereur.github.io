@@ -78,13 +78,13 @@
       "category": "painting",
       "image": "images/Personnage simple.jpg",
       "date": "2026",
-      "featured": false,
+      "featured": true,
       "description": "Interprétation simplifié de Cloud Strife, Final Fantasy VII — Peinture acrylique, A3, inspiré par Denis de Groot."
     },
 
     {
       "id": "un_enfant_a_nantes",
-      "title": "Un enfant à Nantes",
+      "title": "Une enfant à Nantes",
       "category": "photography",
       "image": "images/Un enfant à Nantes.jpg",
       "date": "2023",
@@ -98,7 +98,7 @@
       "category": "painting",
       "image": "images/Fresque mur.jpg",
       "date": "2026",
-      "featured": true,
+      "featured": false,
       "description": "Fresque représentant la Cène réinterprétée avec des éléments de la POP culture — Peinture acrylique sur mur, 3,70m x 2m."
     },
 
@@ -143,10 +143,20 @@
     },
 
     {
+      "id": "voiture-futuriste",
+      "title": "Voiture futuriste",
+      "category": "drawing",
+      "image": "images/Voiture futuriste.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'une voiture futuriste."
+    },
+
+    {
       "id": "ecorche",
       "title": "Écorché",
       "category": "drawing",
-      "image": "images/Ecorche.jpeg",
+      "image": "images/Ecorche.jpg",
       "date": "2026",
       "featured": false,
       "description": "Étude anatomique d'un écorché."
@@ -157,46 +167,36 @@
       "title": "Planche Squelette",
       "category": "drawing",
       "image": "images/Planche Squelette.jpg",
-      "date": "2025",
+      "date": "2026",
       "featured": false,
       "description": "Planche d'étude anatomique du squelette."
     },
 
     {
-      "id": "jambes",
-      "title": "Jambes",
+      "id": "modele-vivant-1",
+      "title": "Modèle Vivant 1",
       "category": "drawing",
-      "image": "images/Jambes.jpg",
+      "image": "images/Modele Vivant 1.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Étude de modèle vivant — jambes."
+      "description": "Étude de modèle vivant."
     },
 
     {
-      "id": "tetes",
-      "title": "Têtes",
+      "id": "modele-vivant-2",
+      "title": "Modèle Vivant 2",
       "category": "drawing",
-      "image": "images/Tetes.jpg",
+      "image": "images/Modele Vivant 2.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Étude de modèle vivant — têtes."
-    },
-
-    {
-      "id": "visages",
-      "title": "Visages",
-      "category": "drawing",
-      "image": "images/Visages.jpg",
-      "date": "2026",
-      "featured": false,
-      "description": "Étude de modèle vivant — visages."
+      "description": "Étude de modèle vivant."
     },
 
     {
       "id": "animaux",
       "title": "Animaux",
       "category": "drawing",
-      "image": "images/Animaux.jpg",
+      "image": "images/Animaux.jpeg",
       "date": "2026",
       "featured": false,
       "description": "Dessin d'observation — animaux."
@@ -233,6 +233,36 @@
     },
 
     {
+      "id": "skatepark-1",
+      "title": "Skatepark 1",
+      "category": "drawing",
+      "image": "images/Skatepark 1.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation — skatepark."
+    },
+
+    {
+      "id": "skatepark-2",
+      "title": "Skatepark 2",
+      "category": "drawing",
+      "image": "images/Skatepark 2.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation — skatepark."
+    },
+
+    {
+      "id": "vue-parc",
+      "title": "Vue d'un parc",
+      "category": "drawing",
+      "image": "images/Vue d'un parc.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Dessin d'observation — vue d'un parc."
+    },
+
+    {
       "id": "visages-sculptes",
       "title": "Visages sculptés",
       "category": "drawing",
@@ -243,50 +273,10 @@
     },
 
     {
-      "id": "cube",
-      "title": "Cube",
-      "category": "painting",
-      "image": "images/Cube.jpg",
-      "date": "2026",
-      "featured": false,
-      "description": "Peinture d'un cube."
-    },
-
-    {
-      "id": "harmonies",
-      "title": "Harmonies",
-      "category": "painting",
-      "image": "images/Harmonies.jpg",
-      "date": "2025",
-      "featured": false,
-      "description": "Étude d'harmonies de couleurs."
-    },
-
-    {
-      "id": "sphere",
-      "title": "Sphère",
-      "category": "painting",
-      "image": "images/Sphere.jpg",
-      "date": "2026",
-      "featured": false,
-      "description": "Peinture d'une sphère."
-    },
-
-    {
-      "id": "vitraux",
-      "title": "Vitraux",
-      "category": "painting",
-      "image": "images/Vitraux.jpg",
-      "date": "2025",
-      "featured": false,
-      "description": "Peinture inspirée de vitraux."
-    },
-
-    {
       "id": "archi-brutaliste-1",
       "title": "Architecture Brutaliste — Vue 1",
       "category": "drawing",
-      "image": "images/Architecture Brutaliste - vue 1.jpg",
+      "image": "images/Architecture Brutaliste - vue 1.jpeg",
       "date": "2026",
       "featured": false,
       "description": "Dessin en perspective d'architecture brutaliste."
@@ -296,7 +286,7 @@
       "id": "archi-brutaliste-2",
       "title": "Architecture Brutaliste — Vue 2",
       "category": "drawing",
-      "image": "images/Architecture Brutaliste - vue 2.jpg",
+      "image": "images/Architecture Brutaliste - vue 2.jpeg",
       "date": "2026",
       "featured": false,
       "description": "Dessin en perspective d'architecture brutaliste — seconde vue."
@@ -307,7 +297,7 @@
       "title": "Impro bâtiment",
       "category": "drawing",
       "image": "images/Impro batiment.jpg",
-      "date": "2025",
+      "date": "2026",
       "featured": false,
       "description": "Dessin en perspective — improvisation architecturale."
     }

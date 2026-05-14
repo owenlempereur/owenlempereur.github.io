@@ -149,7 +149,7 @@
       "image": "images/Voiture futuriste.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'une voiture futuriste."
+      "description": "Dessin d'imagination d'une voiture futuriste - Feutre fin et feutre à alcool."
     },
 
     {
@@ -159,7 +159,7 @@
       "image": "images/Ecorche.jpg",
       "date": "2026",
       "featured": false,
-      "description": "Étude anatomique d'un écorché."
+      "description": "Interprétation de l'Ange Déchu d'Alexandre CABANEL sous forme d'écorché anatomique - Crayon graphite et fusain, 65x50cm."
     },
 
     {
@@ -169,7 +169,7 @@
       "image": "images/Planche Squelette.jpg",
       "date": "2026",
       "featured": false,
-      "description": "Planche d'étude anatomique du squelette."
+      "description": "Planche d'étude anatomique du squelette - Crayon graphite, A3."
     },
 
     {
@@ -179,7 +179,7 @@
       "image": "images/Modele Vivant 1.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Étude de modèle vivant."
+      "description": "Étude de modèle vivant - Crayon graphite et crayon de couleur, A4."
     },
 
     {
@@ -189,7 +189,7 @@
       "image": "images/Modele Vivant 2.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Étude de modèle vivant."
+      "description": "Étude de modèle vivant - Crayon de couleur, A4"
     },
 
     {
@@ -199,7 +199,7 @@
       "image": "images/Animaux.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation — animaux."
+      "description": "Dessin d'observation d'animaux naturalisés, Museum d'Histoire Naturelle de Bordeaux - Crayon graphite, A4"
     },
 
     {
@@ -209,7 +209,7 @@
       "image": "images/Buste Cesar.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation d'un buste de César."
+      "description": "Dessin d'observation d'un buste de Jules César - Crayon graphite, 65x50cm."
     },
 
     {
@@ -219,7 +219,7 @@
       "image": "images/Buste de grand-mère.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation d'un buste de grand-mère."
+      "description": "Dessin d'observation d'un buste de bronze - Fusain, 65x50cm."
     },
 
     {
@@ -229,7 +229,7 @@
       "image": "images/Skate.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation — skate."
+      "description": "Dessin d'observation d'éléments de skateboard réintérpéter dans une composition personnelle — Crayon graphite - 65x50cm."
     },
 
     {
@@ -239,7 +239,7 @@
       "image": "images/Skatepark 1.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation — skatepark."
+      "description": "Dessin d'observation réalisé sur le vif — Pinceau à encre et feutre à alcool, A4."
     },
 
     {
@@ -249,7 +249,7 @@
       "image": "images/Skatepark 2.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation — skatepark."
+      "description": "Dessin d'observation réalisé sur le vif — Pinceau à encre et feutre à alcool, A5."
     },
 
     {
@@ -259,7 +259,7 @@
       "image": "images/Vue d'un parc.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation — vue d'un parc."
+      "description": "Dessin d'observation d'un petit parc Bordelais — Crayon graphite, A3."
     },
 
     {
@@ -269,7 +269,7 @@
       "image": "images/Visages sculptés.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin d'observation de visages sculptés."
+      "description": "Dessin d'observation de visages sculptés - Fusain, 65x50cm."
     },
 
     {
@@ -279,7 +279,7 @@
       "image": "images/Architecture Brutaliste - vue 1.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin en perspective d'architecture brutaliste."
+      "description": "Dessin d'imagination en perspective d'une architecture brutaliste - Crayon graphite, A4."
     },
 
     {
@@ -289,7 +289,7 @@
       "image": "images/Architecture Brutaliste - vue 2.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin en perspective d'architecture brutaliste — seconde vue."
+      "description": "Dessin d'imagination en perspective d'une architecture brutaliste vue d'un autre angle (cf Architecture Brutaliste - Vue 1) - Crayon graphite, A4"
     },
 
     {
@@ -299,7 +299,7 @@
       "image": "images/Impro batiment.jpeg",
       "date": "2026",
       "featured": false,
-      "description": "Dessin en perspective — improvisation architecturale."
+      "description": "Dessin d'imagination en perspective — Crayon graphite, A4."
     }
 
   ]

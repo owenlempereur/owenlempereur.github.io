@@ -100,6 +100,16 @@
       "description": "Interprétation simplifié de Cloud Strife, Final Fantasy VII — Peinture acrylique, A3, inspiré par Denis de Groot."
     },
 
+   {
+      "id": "gummies",
+      "title": "Gummies",
+      "category": "painting",
+      "image": "images/Gummies.jpeg",
+      "date": "2026",
+      "featured": false,
+      "description": "Représentation de bonbons en forme de diablotins sur fond noir — Peinture acrylique, A3, inspiré par Christian Rex van Minnen."
+    },
+    
     {
       "id": "un_enfant_a_nantes",
       "title": "Une enfant à Nantes",

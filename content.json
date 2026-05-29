@@ -31,7 +31,25 @@
       "link_url": "https://drive.google.com/file/d/1PqHfkskGx8A0Tvb1thn9bp-oBbKFtSkc/view?usp=sharing",
       "link_label": "Lisez l'écrit dans son ensemble ici :"
     },
-
+    
+ {
+      "id": "Scenario_WoG",
+      "title": "Widows of Glass - Scénario",
+      "category": "writing",
+      "image": "images/placeholder-writing.jpg",
+      "date": "Avril 2026",
+      "featured": false,
+      "genre": "Fiction · Scénario de Jeu Vidéo",
+      "status": "Terminé",
+      "pitch": "À Dornach, personne ne parle des disparus. Les cerises soignent, dit-on. Les miroirs cachent autre chose. Iris a dix-neuf ans, une photo et un nom de village — et de l'autre côté du verre, quelque chose qui porte le visage de sa mère l'attendait depuis sa naissance.",
+      "description": "Les Veuves de Verre est un jeu d'horreur atmosphérique solo situé dans une Alsace rurale de 1957. Le joueur incarne Iris, dix-neuf ans, qui débarque à Dornach avec une photo et des questions sur ses parents — et découvre un village sous emprise depuis le XVIe siècle, des cerises qui brisent l'esprit, et un monde parallèle accessible par les miroirs. La progression va de l'exploration et l'infiltration jusqu'au combat intensifié, portée par un sixième sens qui se développe à mesure qu'Iris s'enfonce dans l'histoire. Le ton cherche l'horreur lente : moins ce qu'on voit que ce qui ne coïncide pas tout à fait.",
+      "process": "Première expérience d'écriture scénaristique pour moi. Apprendre à ne pas romancer — à me concentrer sur les événements, les mécaniques, les informations utiles plutôt que sur la prose — a été plus frustrant qu'autre chose. Mais c'est ce qui a le plus fait évoluer ma façon de planifier mes écrits de fiction. Sur ce projet, je me suis occupé de la rédaction du scénario et de la gestion globale, en collaboration avec mon groupe pour la construction de l'univers.",
+      "excerpt": "— Acte 1, premier passage dans l'Autre Monde. Iris s'arrêta devant le miroir. Son reflet bougea une fraction de seconde après elle — pas assez pour en être sûre, juste assez pour ne plus l'ignorer. Elle tendit la main. La surface céda sous ses doigts, froide, épaisse, comme de l'eau qui ne voulait pas s'ouvrir. De l'autre côté, l'air pesait différemment. La lumière venait de nulle part de précis. Il y avait Dornach — l'église, l'auberge, les toits — mais disposé de travers, comme si quelqu'un l'avait reconstruit de mémoire, sans jamais avoir habité là. Certaines façades s'arrêtaient à mi-hauteur. D'autres n'avaient que trois murs. Entre eux, des arbres aux troncs noirs et des cerises sombres, lisses, froides au toucher comme du verre. Elle suivit les chasseurs. Puis elle ne les suivit plus. Les ruelles se ressemblaient toutes, et l'espace semblait se réorganiser entre deux regards. Elle s'arrêta. Quelque part derrière elle, une respiration qu'elle n'arrivait pas à localiser.",
+      "link_type": "pdf",
+      "link_url": "https://drive.google.com/file/d/1Icx8X8JAQuR9EZbSqfqzxWhvjC4Me1js/view?usp=sharing",
+      "link_label": "Lisez le scénario dans son ensemble ici :"
+    },
+    
     {
       "id": "la_poussiere_rouge",
       "title": "La Poussière Rouge Ne Juge Pas",

@@ -56,7 +56,7 @@
       "category": "photography",
       "image": "images/Un samedi apres-midi.jpg",
       "date": "2020",
-      "featured": true,
+      "featured": false,
       "description": "Photographie à l'argentique prise lors d'une pause a une session de musique avec un ami."
     },
 
@@ -96,7 +96,7 @@
       "category": "painting",
       "image": "images/Personnage simple.jpeg",
       "date": "2026",
-      "featured": true,
+      "featured": false,
       "description": "Interprétation simplifié de Cloud Strife, Final Fantasy VII — Peinture acrylique, A3, inspiré par Denis de Groot."
     },
 
@@ -126,7 +126,7 @@
       "category": "painting",
       "image": "images/Fresque mur.jpg",
       "date": "2026",
-      "featured": false,
+      "featured": true,
       "description": "Fresque représentant la Cène réinterprétée avec des éléments de la POP culture — Peinture acrylique sur mur, 3,70m x 2m."
     },
 
@@ -156,7 +156,7 @@
       "category": "photography",
       "image": "images/Horloge d'Orsay.jpg",
       "date": "2023",
-      "featured": false,
+      "featured": true,
       "description": "Photographie de la grande horloge du musée d'Orsay."
     },
 

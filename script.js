@@ -29,6 +29,15 @@
     handleHash();
   }
 
+  // --- SORT HELPER ---
+  function sortBySortField(items) {
+    return items.slice().sort(function (a, b) {
+      var sa = typeof a.sort === 'number' ? a.sort : 9999;
+      var sb = typeof b.sort === 'number' ? b.sort : 9999;
+      return sa - sb;
+    });
+  }
+
   // --- JSON ERROR ---
   function showJsonError(msg) {
     var home = document.getElementById('page-home');
@@ -111,8 +120,8 @@
     grid.innerHTML = '';
 
     // Sort: writing first (tall card), then the rest
-    var writingPieces = featured.filter(function (w) { return w.category === 'writing'; });
-    var visualPieces = featured.filter(function (w) { return w.category !== 'writing'; });
+    var writingPieces = sortBySortField(featured.filter(function (w) { return w.category === 'writing'; }));
+    var visualPieces = sortBySortField(featured.filter(function (w) { return w.category !== 'writing'; }));
 
     // Render writing card (tall, left)
     writingPieces.forEach(function (w) {
@@ -163,6 +172,8 @@
     if (filter !== 'all') {
       works = works.filter(function (w) { return w.category === filter; });
     }
+
+    works = sortBySortField(works);
 
     works.forEach(function (w) {
       if (w.category === 'writing') {
@@ -215,7 +226,7 @@
   }
 
   function renderVisualDetail(w) {
-    var siblings = DATA.works.filter(function (item) { return item.category === w.category; });
+    var siblings = sortBySortField(DATA.works.filter(function (item) { return item.category === w.category; }));
     var idx = siblings.findIndex(function (item) { return item.id === w.id; });
     var prev = idx > 0 ? siblings[idx - 1] : null;
     var next = idx < siblings.length - 1 ? siblings[idx + 1] : null;

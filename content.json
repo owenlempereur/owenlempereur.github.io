@@ -105,16 +105,38 @@
     },
 
     {
-      "id": "digital-example-01",
-      "title": "Your Featured Digital Piece",
+      "id": "Diorama",
+      "title": "Salon de nuit",
       "category": "digital",
-      "sort": 1,
+      "sort": 3,
       "image": "images/placeholder-digital.jpg",
       "date": "2026",
       "featured": true,
-      "description": "A short description of this digital painting."
+      "description": "Petit diorama réalisé sur Blender, dans le cadre d'une initiation à la modélisation 3D."
     },
 
+    {
+      "id": "carte_magic",
+      "title": "Carte Magic the Gathering",
+      "category": "digital",
+      "sort": 1,
+      "image": "images/placeholder-digital.jpg",
+      "date": "2025",
+      "featured": false,
+      "description": "Carte Magic the Gathering fictive imaginé dans le cadre d'une inititation à la peinture numérique."
+    },
+    
+    {
+      "id": "CotLS-concept",
+      "title": "Concept Art - Children of the Lost Sun",
+      "category": "digital",
+      "sort": 2,
+      "image": "images/Temple Scene.jpg",
+      "date": "2026",
+      "featured": false,
+      "description": "Concept art d'un projet de jeu fictif, Children of the Lost Sun."
+    },
+    
     {
       "id": "perso-simple",
       "title": "Cloud Strife",

@@ -21,6 +21,7 @@
       return;
     }
 
+    createLightbox();
     renderFooter();
     renderHome();
     renderWork();
@@ -35,6 +36,53 @@
       var sa = typeof a.sort === 'number' ? a.sort : 9999;
       var sb = typeof b.sort === 'number' ? b.sort : 9999;
       return sa - sb;
+    });
+  }
+
+  // --- LIGHTBOX ---
+  function createLightbox() {
+    var lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.id = 'lightbox';
+    lb.innerHTML = '<button class="lightbox-close">Fermer ✕</button><img src="" alt="">';
+    document.body.appendChild(lb);
+
+    lb.addEventListener('click', closeLightbox);
+    lb.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lb.querySelector('img').addEventListener('click', function (e) {
+      e.stopPropagation();
+      closeLightbox();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  }
+
+  function openLightbox(src, alt) {
+    var lb = document.getElementById('lightbox');
+    var img = lb.querySelector('img');
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    var lb = document.getElementById('lightbox');
+    lb.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function makeZoomable(container) {
+    var imgs = container.querySelectorAll('.detail-img, .wd-image');
+    imgs.forEach(function (img) {
+      if (img.tagName === 'IMG') {
+        img.classList.add('zoomable');
+        img.addEventListener('click', function () {
+          openLightbox(img.src, img.alt);
+        });
+      }
     });
   }
 
@@ -245,6 +293,8 @@
       '<button class="detail-nav-btn' + (next ? '' : ' disabled') + '" data-id="' + (next ? next.id : '') + '">Suivant →</button>' +
       '</div>';
 
+    makeZoomable(container);
+
     container.querySelectorAll('.detail-nav-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var targetId = btn.getAttribute('data-id');
@@ -290,6 +340,8 @@
     }
 
     container.innerHTML = html;
+
+    makeZoomable(container);
 
     // Process toggle
     var toggle = document.getElementById('process-toggle');
